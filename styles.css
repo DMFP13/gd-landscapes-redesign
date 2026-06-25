@@ -205,7 +205,12 @@ h1 {
 }
 
 .hero h1 {
-  white-space: nowrap;
+  display: grid;
+  gap: 4px;
+}
+
+.hero h1 span {
+  display: block;
 }
 
 h2 {
@@ -723,7 +728,7 @@ textarea:focus {
   }
 
   .hero h1 {
-    font-size: clamp(42px, 12vw, 62px);
+    font-size: clamp(56px, 18vw, 88px);
   }
 
   h2 {
