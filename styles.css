@@ -211,6 +211,8 @@ h1 {
 
 .hero h1 span {
   display: block;
+  overflow-wrap: normal;
+  white-space: nowrap;
 }
 
 h2 {
@@ -728,7 +730,7 @@ textarea:focus {
   }
 
   .hero h1 {
-    font-size: clamp(56px, 18vw, 88px);
+    font-size: clamp(48px, 14vw, 76px);
   }
 
   h2 {
